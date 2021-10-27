@@ -1,0 +1,7 @@
+# Explainable-Unsupervised-Anomaly-Detection-for-Industrial-Internet-of-Things
+
+This repository is my PhD first mid-year work. 
+<br>
+The abstract of the work is shown as following:
+<br>
+In recent years, many machine learning techniques have been widely used for anomaly detection in the Industrial Internet of Things (IIoT). Due to the challenging task of labelling massive IIoT data, supervised machine learning is inefficient in anomaly detection for IIoT. Although unsupervised machine learning can handle unlabelled data, most of them are rigid in dealing with high dimensional data. To address this issue, we propose an unsupervised machine learning based on Variational Auto Encoder to detect anomalies in IIoT. However, the proposed model comes up with the so-called ``black box'' problem namely that it is hard to understand why and how it comes to recognize anomalies. The lack of explainability may lose trust by administrator of the IIoT infrastructure and cause serious accidents. To further address this issue, we propose to employ a model-agnostic SHAP-based explainer to unveil the relation between input features and output decisions of the anomaly detection model. Evaluation using recent IIoT datasets demonstrates that our solution is effective in detecting anomalies as well as explaining the detection outcomes. Comparing with state-of-the-art works, the proposed approach has higher performance, in terms of accuracy, of identifying the important features that affect the decisions on anomaly detection in IIoT.
